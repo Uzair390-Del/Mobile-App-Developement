@@ -98,9 +98,9 @@ Before diving into the implementation, let's understand some core Java concepts 
 ### **AppCompatActivity & Inheritance**
 Android activities extend AppCompatActivity, which provides backward compatibility features and support for modern UI elements.
 
-java
+```java
 public class MainActivity extends AppCompatActivity {
-
+```
 
 #### **What is Inheritance?**
 - Inheritance allows a class to acquire properties and behaviors of another class.
@@ -111,12 +111,12 @@ public class MainActivity extends AppCompatActivity {
 - Overriding occurs when a subclass provides a specific implementation of a method already defined in its superclass.
 - Example:
   
-java
+```java
   @Override
   protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
   }
-
+```
 - The onCreate() method in MainActivity overrides the one in AppCompatActivity, modifying its behavior.
 
 ### **Difference Between Inheritance and Method Overriding**
@@ -129,14 +129,14 @@ java
 ### **OnClickListener Explained**
 An OnClickListener is used to handle button clicks in Android.
 
-java
+```java
 Roll_btn.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
         // Code to execute on button click
     }
 });
-
+```
 - setOnClickListener() registers a listener for button clicks.
 - new View.OnClickListener() creates an anonymous inner class to handle clicks.
 - onClick(View v) is the method executed when the button is clicked.
