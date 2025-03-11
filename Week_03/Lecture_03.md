@@ -99,7 +99,7 @@ Before diving into the implementation, let's understand some core Java concepts 
 Android activities extend AppCompatActivity, which provides backward compatibility features and support for modern UI elements.
 
 ```java
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {}
 ```
 
 #### **What is Inheritance?**
