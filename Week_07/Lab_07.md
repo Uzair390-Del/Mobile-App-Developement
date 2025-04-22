@@ -226,6 +226,26 @@ Some apps (e.g., WhatsApp, Viber) use **broadcasts to read SMS** for **auto-veri
 
 ---
 
+# 🌐 What is WebView in Android?
+
+Imagine you're using an app and suddenly, it opens up Google.com or another website inside the app—without jumping to Chrome or Firefox. That's what WebView does!
+
+In simple words:  
+🧒 *"WebView is like a mini browser that lives inside your app."*
+
+You can use it to open websites or show online content right inside your Android app.
+
+---
+
+
+
+
+
+
+
+
+
+
 ## ✅ Summary
 
 | Topic              | Easy Words       | Example                        |
@@ -235,4 +255,5 @@ Some apps (e.g., WhatsApp, Viber) use **broadcasts to read SMS** for **auto-veri
 | **Broadcast Receiver** | News listener  | Battery low, Airplane Mode     |
 
 ---
+
 
