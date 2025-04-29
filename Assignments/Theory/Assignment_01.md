@@ -1,11 +1,11 @@
-# 📘 Assignment: Integrating Machine Learning and Deep Learning Models into Android Applications
+#  Assignment: Integrating Machine Learning and Deep Learning Models into Android Applications
 
-## 🔰 Objective:
+##  Objective:
 To understand how Machine Learning (ML) and Deep Learning (DL) models can be embedded into Android applications using TensorFlow Lite (TFLite) and gain hands-on experience by exploring and implementing a real-world Android ML project from GitHub.
 
 ---
 
-## 📌 Assignment Instructions:
+##  Assignment Instructions:
 
 ### 1. Conceptual Understanding:
 Write a short report (3-5 pages) answering the following:
@@ -56,7 +56,7 @@ This project demonstrates the integration of a TFLite model in an Android applic
 
 ---
 
-## ✅ Deliverables:
+##  Deliverables:
 - PDF report covering the conceptual understanding (Part 1)
 - Android Studio project folder (zipped)
 
