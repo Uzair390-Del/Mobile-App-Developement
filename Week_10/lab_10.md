@@ -136,7 +136,7 @@ Means we inherit all ViewHolder features + add our own (like TextView, ImageView
 
 ---
 
-## Your Code: ViewHolder Explanation
+## Your Code: ViewHolder Explanation c
 ```java
 public class CountryViewHolder extends RecyclerView.ViewHolder {
     private TextView textView_Country, textView_Detail;
