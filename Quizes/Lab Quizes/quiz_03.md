@@ -1,7 +1,7 @@
 
-# 🧪 Android Lab Quiz 3: Data Passing – Fragment ➝ Activity 
+#  Android Lab Quiz 3: Data Passing – Fragment ➝ Activity 
 
-## 🎯 Objective
+##  Objective
 
 Build an Android app using **Java** that demonstrates:
 
@@ -9,7 +9,7 @@ Build an Android app using **Java** that demonstrates:
 
 ---
 
-## 📁 Required Files
+## Required Files
 
 ```
 com.example.fragmenttoactivity
@@ -23,7 +23,7 @@ com.example.fragmenttoactivity
 
 ---
 
-## 🎯 Expected Behavior
+##  Expected Behavior
 
 1. App launches with `InputFragment`.
 2. User enters:
@@ -43,7 +43,7 @@ david@gmail.com
 
 ---
 
-## ✅ Submission Checklist
+##  Submission Checklist
 
 - [ ] All XML layouts created correctly
 - [ ] `InputFragment` sends data using interface
@@ -51,7 +51,7 @@ david@gmail.com
 
 ---
 
-## 💡 Tip
+##  Tip
 
 If stuck on communication steps:
 - Use `Log.d()` to check if the data is being passed.
@@ -59,7 +59,7 @@ If stuck on communication steps:
 
 ---
 
-## 🔄 Bonus Task (Optional)
+##  Bonus Task (Optional)
 
 - Add input validation to check if fields are not empty before sending.
 - Clear input fields after sending the data.
