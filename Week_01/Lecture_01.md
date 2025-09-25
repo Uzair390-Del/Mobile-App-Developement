@@ -1,4 +1,4 @@
-# Android Application Development - Week 1 Lecture
+# Mobile App Development - Week 1 Lecture
 
 ## Course Policies and Guidelines
 - **Attendance & Participation:** Regular attendance is required. Active participation in discussions and practical sessions is encouraged.

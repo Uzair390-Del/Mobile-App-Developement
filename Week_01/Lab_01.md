@@ -1,4 +1,4 @@
-# Android Development Lab 1
+# Mobile App Development Lab 1
 
 ## Lab Title: Introduction to Android Studio & File Structure Overview
 
