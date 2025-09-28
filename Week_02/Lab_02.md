@@ -202,4 +202,4 @@ You can **set a custom app icon** that appears in the launcher.
 
 ---
 
- Great job! You’ve successfully created a **basic Android app with a custom UI and branding!** 🚀
+
