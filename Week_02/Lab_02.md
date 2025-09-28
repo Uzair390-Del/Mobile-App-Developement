@@ -42,7 +42,7 @@
 
 </RelativeLayout>
 ```
-📌 **Key Properties Used:**
+ **Key Properties Used:**
 - `layout_centerHorizontal`: Centers the `TextView` horizontally.
 - `textSize`: Defines text size.
 - `textStyle`: Defines the text appearance.
@@ -64,7 +64,7 @@
     android:layout_marginTop="10dp" />
 ```
 
-📌 **Key Properties:**
+ **Key Properties:**
 - `text`: Defines the displayed text.
 - `textSize`: Adjusts text size.
 - `textColor`: Sets text color.
@@ -90,7 +90,7 @@
     android:layout_marginTop="20dp"/>
 ```
 
-📌 **Key Properties:**
+ **Key Properties:**
 - `src`: Sets the image source.
 - `layout_below`: Positions the image below another element.
 - `layout_centerHorizontal`: Centers the image horizontally.
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
-📌 **Key Points:**
+ **Key Points:**
 - `Log.d(TAG, "message")`: Used to print debug logs in Logcat.
 - Custom `TAG` helps filter logs.
 
@@ -149,7 +149,7 @@ Themes change the app’s overall look and feel.
 </application>
 ```
 
-📌 **Key Customizations:**
+ **Key Customizations:**
 - `colorPrimary`: Defines the primary app color.
 - `colorAccent`: Defines highlight colors.
 
@@ -169,13 +169,13 @@ You can **set a custom app icon** that appears in the launcher.
 </application>
 ```
 
-📌 **Key Points:**
+ **Key Points:**
 - `android:icon`: Sets the app icon.
 - `android:roundIcon`: Sets the icon for rounded displays.
 
 ---
 
-## 🎯 Lab Tasks
+##  Lab Tasks
 - Create an **Android project** using Java.
 - Implement **RelativeLayout**.
 - Add **TextViews** and customize text appearance.
@@ -186,7 +186,7 @@ You can **set a custom app icon** that appears in the launcher.
 
 ---
 
-## 📌 Summary
+##  Summary
 ✅ Built a **basic app UI** using RelativeLayout.  
 ✅ Used **TextViews** and **ImageView**.  
 ✅ Implemented **custom logs** for debugging.  
@@ -195,11 +195,11 @@ You can **set a custom app icon** that appears in the launcher.
 
 ---
 
-## 📝 Homework
+##  Homework
 - **Modify the app layout** to add buttons.
 - **Apply different color themes** and observe UI changes.
 - **Use an alternative image for the app logo** and display it inside the UI.
 
 ---
 
-🔥 Great job! You’ve successfully created a **basic Android app with a custom UI and branding!** 🚀
+ Great job! You’ve successfully created a **basic Android app with a custom UI and branding!** 🚀
