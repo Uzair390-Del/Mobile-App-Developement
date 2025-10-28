@@ -95,7 +95,7 @@ Use this when:
 
 ## What is ListView?
 
-**ListView** shows items one below the other, like a contact list or settings.
+**ListView** shows items one below the other, like a contact list or settings. It groups several items and display them in a vertical scrollable list.
 
 ### Example of ListView with ArrayAdapter:
 
