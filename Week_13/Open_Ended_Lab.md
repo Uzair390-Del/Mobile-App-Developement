@@ -2,8 +2,8 @@
 
 ## Objective
 
-Students will design, develop, and deploy a fully functional Android
-application of their own choice using modern Android development
+Students will design, develop, and deploy a fully functional Mobile
+application of their own choice using modern Mobile development
 practices.
 
 ## Problem Statement
