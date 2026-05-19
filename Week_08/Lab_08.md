@@ -11,7 +11,7 @@ It’s like a small notebook  in your phone where the app can write and read inf
 ##  Theory Recap
 SharedPreferences is a simple way to store small pieces of data in the form of key-value pairs.
 
-### 🔧 Functions You’ll Use:
+###  Functions You’ll Use:
 
 | Function | Purpose |
 |---------|---------|

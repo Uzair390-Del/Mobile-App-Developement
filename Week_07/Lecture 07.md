@@ -1,13 +1,13 @@
-# 🧪 Android Application Development Lab
+#  Android Application Development Lab
 
-## 📘 Topics Covered
+##  Topics Covered
 - Fragments
 - Services
 - Broadcast Receivers
 
 ---
 
-## 👶 Introduction
+##  Introduction
 
 Think of your Android phone like a **magic toy** that can do many things — show games, messages, songs, or even weather updates.
 
@@ -18,9 +18,9 @@ In this lab, we’ll learn about:
 
 ---
 
-## 🧩 Part 1: Fragments and Their Lifecycle
+##  Part 1: Fragments and Their Lifecycle
 
-### 🧠 What is a Fragment?
+###  What is a Fragment?
 
 A **Fragment** is like a mini screen inside a big screen.  
 Imagine your tablet screen is divided into two parts:
@@ -31,7 +31,7 @@ Each part is a **Fragment**.
 
 ---
 
-### 🌀 Fragment Lifecycle (Like a Plant's Life)
+###  Fragment Lifecycle (Like a Plant's Life)
 
 | Lifecycle Method | Meaning (Simple)              |
 |------------------|-------------------------------|
@@ -49,7 +49,7 @@ Each part is a **Fragment**.
 ---
 ![Fragments Lifecycle](Fragments_Lifecycle.png)
 
-### 🛠 Lab Task: Create a Fragment-Based App
+###  Lab Task: Create a Fragment-Based App
 
 #### Objective:
 - Create an app with **Fragment**:
@@ -59,9 +59,9 @@ Each part is a **Fragment**.
 
 ---
 
-## ⚙️ Part 2: Services in Android
+##  Part 2: Services in Android
 
-### 🧠 What is a Service?
+###  What is a Service?
 
 A **Service** is an application component that can perform long running operation in background. It do not provide a User Interface. Another application component can start a service.
 A **Service** is like a **robot** that works in the background.  
@@ -72,7 +72,7 @@ You don’t see it, but it's doing its job — like playing music or downloading
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 - Runs **in the background**.
 - **No UI** – doesn't interact with users directly.
 - Can be started by other components like **buttons** or **activities**.
@@ -80,7 +80,7 @@ You don’t see it, but it's doing its job — like playing music or downloading
 
 ---
 
-## 🔄 Real-World Examples
+##  Real-World Examples
 1. **File Download**:
    - Click a button → service starts downloading in the background.
    - User continues using the app while download happens.
@@ -96,21 +96,21 @@ You don’t see it, but it's doing its job — like playing music or downloading
 
 ---
 
-## 🧩 Types of Android Services
+##  Types of Android Services
 
-### 1. 🚀 Foreground Service
+### 1.  Foreground Service
 - Runs in background **but shows a notification** to the user.
 - Example: Download manager, music player.
 - Must display status or progress to user.
 - **Continues running** even if the user leaves the app.
 
-### 2. 🌙 Background Service
+### 2.  Background Service
 - Runs silently **without showing notification**.
 - Used for tasks like **photo compression** or **data syncing**.
 - User is usually unaware it’s running.
 - Limited by Android for battery optimization.
 
-### 3. 🔗 Bound Service
+### 3.  Bound Service
 - **Tightly coupled** with the component (activity/fragment) that started it.
 - When the calling component stops, **service stops too**.
 - Maintains a **client-server relationship**.
@@ -118,7 +118,7 @@ You don’t see it, but it's doing its job — like playing music or downloading
 
 ---
 
-## ⚙️ Summary
+##  Summary
 
 | Feature                 | Foreground               | Background             | Bound                       |
 |------------------------|--------------------------|------------------------|-----------------------------|
@@ -132,9 +132,9 @@ You don’t see it, but it's doing its job — like playing music or downloading
 
 ---
 
-## 📡 Part 3: Broadcast Receivers
+##  Part 3: Broadcast Receivers
 
-### 🧠 What is a Broadcast Receiver?
+###  What is a Broadcast Receiver?
 
 A **Broadcast Receiver** is a component in Android used to **receive messages** (called *broadcasts*) from:
 - The **Android Operating System**
@@ -145,12 +145,12 @@ A **Broadcast Receiver** is like a **radio** 📻 — it listens for important u
 - Airplane Mode turned ON/OFF
 
 ---
-## 🔄 Why is it called a “Broadcast”?
+##  Why is it called a “Broadcast”?
 The message is **sent to all subscribed apps**, not just one — just like a radio broadcast!
 
 ---
 
-## 📲 What kind of messages can Android OS broadcast?
+##  What kind of messages can Android OS broadcast?
 1. 🔋 Battery is low  
 2. 📶 Device connected to Wi-Fi  
 3. ✈️ Airplane mode turned on/off  
@@ -159,25 +159,25 @@ The message is **sent to all subscribed apps**, not just one — just like a rad
 
 ---
 
-## 🔔 How Broadcast Receivers Work
+##  How Broadcast Receivers Work
 - Your app can **subscribe** to specific system events.
 - When that event happens, Android **sends a broadcast**.
 - Your app **receives it instantly** and takes action!
 
 ---
 
-## 📥 Example Use Case: Uploading Photos
+##  Example Use Case: Uploading Photos
 A photo app wants to upload photos **only when connected to Wi-Fi**:
 1. App saves photos in memory.
 2. App **waits for Wi-Fi connection broadcast**.
 3. Once connected, **uploads photos**.
 4. If Wi-Fi disconnects, it **pauses upload**.
 
-✅ This saves **mobile data** and improves **user experience**!
+ This saves **mobile data** and improves **user experience**!
 
 ---
 
-## 🛑📱 Battery Low Example
+##  Battery Low Example
 If the device sends a **battery low** broadcast:
 - App **pauses background tasks** to save power.
 
@@ -186,20 +186,20 @@ When the battery is back to normal:
 
 ---
 
-## 📨 Reading Messages Automatically
+##  Reading Messages Automatically
 Some apps (e.g., WhatsApp, Viber) use **broadcasts to read SMS** for **auto-verification**:
 - When a message arrives, app reads it **automatically**.
 - Makes login/verification **faster and easier**!
 
 ---
 
-## 🔄 Between Apps
+##  Between Apps
 - Broadcasts are usually from the **OS to apps**, but…
 - One app can **send a broadcast** to **another app** too.
 
 ---
 
-## 🎯 Why Use Broadcast Receivers?
+##  Why Use Broadcast Receivers?
 - Improve app performance  
 - Reduce unnecessary actions (e.g., no uploads on mobile data)  
 - React **instantly** to system changes  
@@ -209,7 +209,7 @@ Some apps (e.g., WhatsApp, Viber) use **broadcasts to read SMS** for **auto-veri
 ---
 
 
-### 🛠 Lab Task: Airplane Mode Listener
+###  Lab Task: Airplane Mode Listener
 
 #### Objective:
 - Listen for **Airplane Mode** changes
@@ -218,7 +218,7 @@ Some apps (e.g., WhatsApp, Viber) use **broadcasts to read SMS** for **auto-veri
 
 ---
 
-### 🔧 Steps to Implement:
+###  Steps to Implement:
 
 1. Create a class **extending `BroadcastReceiver`**
 2. Override the `onReceive()` method
@@ -226,12 +226,12 @@ Some apps (e.g., WhatsApp, Viber) use **broadcasts to read SMS** for **auto-veri
 
 ---
 
-# 🌐 What is WebView in Android?
+#  What is WebView in Android?
 
 Imagine you're using an app and suddenly, it opens up Google.com or another website inside the app—without jumping to Chrome or Firefox. That's what WebView does!
 
 In simple words:  
-🧒 *"WebView is like a mini browser that lives inside your app."*
+ *"WebView is like a mini browser that lives inside your app."*
 
 You can use it to open websites or show online content right inside your Android app.
 
@@ -246,7 +246,7 @@ You can use it to open websites or show online content right inside your Android
 
 
 
-## ✅ Summary
+##  Summary
 
 | Topic              | Easy Words       | Example                        |
 |--------------------|------------------|--------------------------------|
